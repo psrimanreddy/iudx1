@@ -1,4 +1,5 @@
-FROM alpine:3.5
+FROM alpine
 LABEL maintainer="SrimanReddy"
 
-ENTRYPOINT ["python3", "./main.py"]
+CMD ["echo", "adihafj"]
+CMD ["python3", "main.py"]

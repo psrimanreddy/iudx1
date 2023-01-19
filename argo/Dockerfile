@@ -1,4 +1,4 @@
 FROM alpine:3.5
-LABEL maintainer="Collabnix"
+LABEL maintainer="SrimanReddy"
 
-ENTRYPOINT ["python", "./main.py"]
+ENTRYPOINT ["python3", "./main.py"]
